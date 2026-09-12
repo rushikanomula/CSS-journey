@@ -1,0 +1,336 @@
+.bg{
+    background-color: #232323;
+    height: 80px;
+     display: flex;
+     margin-bottom: 0px;
+
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.search-input{
+    height: 40px;
+    width: 500px;
+   align-items: center;
+   margin-left: 300px;
+   margin-top: 20px;
+   border-radius: 20px 0px 0px 20px;
+   margin-right: 0px;
+   background-color: rgb(70, 54, 54);
+   color: white;
+   margin-bottom: 0px;
+
+}
+.p{
+    color: white;
+    font-size: 30px;;
+    margin-right : 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin: 0px;
+}
+
+.pic{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    margin-top: 10px;
+
+}
+
+.search-button{
+    height: 40px;
+    width: 50px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius:  0 20px 20px 0;
+    margin-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.create{
+    height: 40px;
+    width: 150px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 20px;
+
+}
+
+.bell{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 20px;
+
+}
+
+.login{
+    height: 40px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(63, 62, 62);
+    color: white;
+    font-size: 20px;
+}
+
+.bg2{
+    background-color: #111010;
+    height: 900px;
+    margin-top: 0px;
+    margin : 0px;
+    padding-right : 0px;
+    margin-right: 0px;
+}
+
+.bt{
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.416);
+    color: rgb(25, 24, 24);
+    font-size: 20px;
+}
+.b{
+    height: 40px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(86, 82, 82, 0.416);
+    color: white;
+    font-size: 20px;
+}
+.bt:hover{
+    color: rgb(252, 252, 252);
+    background-color: rgb(25, 24, 24);
+}
+
+.rec{
+    height: 700px;
+    width: 350px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.416);
+
+}
+
+.bit{
+    width: 300px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s ;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+    border-color:rgba(0, 0, 0, 0.416);
+
+
+
+}.bit1{
+    width: 300px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.416);
+    color: rgb(25, 24, 24) ;
+    font-size: 20px;
+    border-color:rgba(255, 255, 255, 0.416);
+}
+
+.bit:hover{
+    background-color: rgba(130, 119, 119, 0.416);
+    color: rgb(25, 24, 24);
+}
+.fl{
+    display: flex;
+}
+.flc{
+    display: flex;
+    flex-direction: column;
+}
+.pic1{
+    height: 220px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.vids{
+    margin-right: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+      top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.head{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 300px;
+    
+}
+
+.underline{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.name{
+    color: rgba(255, 255, 255, 0.374);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+ .preview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hide the animated preview by default */
+.preview {
+  opacity: 0;
+}
+
+/* On hover: hide static thumbnail, show animated preview */
+.vidcard:hover .thumbnail {
+  opacity: 0;
+}
+
+.vidcard:hover .preview {
+  opacity: 1;
+}
+
+.vidcard {
+  position: relative;
+  width: 350px;
+  height: 180px;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.space{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.side{
+    color: rgba(255, 255, 255, 0.705);
+    margin-left: 20px;
+    width:270;
+    height:40;
+    height: 40px;
+    align-items: left;
+    font-size: 20px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.705);
+}
+
+.side:hover{
+    color: rgb(25, 24, 24);
+    background-color: rgba(255, 255, 255, 0.416);
+}
+
+.pw{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    width:270px;
+    height: 40px;
+    align-items: left;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border: 2px solid gray;
+
+}
+
+.mini{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+
+/* 1. Hide the checkbox inputs */
+#menu-toggle {
+  display: none;
+}
+
+/* 2. Style the hamburger icon button */
+.menu-btn {
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+  margin-right: 15px;
+  user-select: none;
+}
+
+/* 3. Add transition to your sidebar (.rec) so it slides smoothly */
+.rec {
+  width: 3500px; /* Adjust to match your sidebar width */
+  transition: width 0.3s ease, padding 0.3s ease;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* 4. THE MAGIC: When checked, collapse the sidebar to width 0 */
+#menu-toggle:checked ~ .bg2 .rec {
+  width: 0;
+  padding: 0;
+}
